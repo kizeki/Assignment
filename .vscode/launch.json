@@ -7,7 +7,7 @@
       "request": "launch",
       "preLaunchTask": "build",
       "program": "${workspaceFolder}/src/TextFilter/bin/Debug/net10.0/TextFilter.dll",
-      "args": [],
+      "args": ["${workspaceFolder}/data/input.txt"],
       "cwd": "${workspaceFolder}",
       "console": "integratedTerminal",
       "stopAtEntry": false
